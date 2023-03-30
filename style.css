@@ -24,15 +24,14 @@ body{
 a{
     text-decoration: none;
     color: #F9FAF8;
-    margin: 20px;
-    font-size: 20px;
+    margin: 25px;
+    font-size: 26px;
 }
 
 .links{
     display: flex;
     justify-content: space-around;
     margin: 20px;
-    font-size: larger;
     font-weight: 900;
 }
 
@@ -61,7 +60,7 @@ a{
 
 .main-img{
     height: 400px;
-    width: 600px;
+    width: 650px;
     margin: 50px;
 }
 
@@ -77,7 +76,37 @@ div.primary , div.secondary{
     border-radius: 15%;
     height:60px;
     width: 140px;
-    font-size: 20px;
+    font-size: 25px;
     outline:none;
+}
 
+.content-header-text{
+    font-size: 65px;    
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.content-info{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.content-img{
+    height: 400px;
+    width: 400px;
+    border-radius: 20%;
+    border: 10px solid #3882F6;
+}
+
+.container{
+    flex:1;
+    margin-left: 30px;
+}
+
+.container .text{
+    margin: 20px;
+    font-size: 20px; 
 }
