@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Sofia", sans-serif;
+}
+
+.header, .footer{
+    background-color: #1F2937;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    font-size: 60px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-top: 10px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    font-size: larger;
+    font-weight: 900;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info{
+    margin: 50px;
+    width: 900px;
+}
+
+.info .primary{
+    font-size: 70px;
+    font-weight: 800;
+    color: #F9FAF8;
+
+}
+
+.info .secondary{
+    font-size: 26px;
+    font-weight: 500;
+    color: #F9FAF8;
+}
+
+.main-img{
+    height: 400px;
+    width: 600px;
+    margin: 50px;
+}
+
+div.primary , div.secondary{
+    margin: 20px;
+}
+
+.signup{
+    margin: 20px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 900;
+    border-radius: 15%;
+    height:60px;
+    width: 140px;
+    font-size: 20px;
+    outline:none;
+
+}
