@@ -74,6 +74,7 @@ div.primary , div.secondary{
     color: #F9FAF8;
     font-weight: 900;
     border-radius: 15%;
+    border-color: #F9FAF8;
     height:60px;
     width: 140px;
     font-size: 25px;
@@ -109,4 +110,51 @@ div.primary , div.secondary{
 .container .text{
     margin: 20px;
     font-size: 20px; 
+}
+
+.quote-section{
+    padding: 150px;
+    background-color: #E5E7EB;
+    font-style: italic;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.quote-section .quote{
+    width: 800px;
+    text-align: center;
+    margin-left: 400px;
+}
+
+.quote-section .quoted-by{
+    margin-top: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.blue-container{
+    background-color: #3882F6;
+    margin:100px;
+    border-radius: 3%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.blue-container .signup{
+    align-self: center;
+}
+
+.footer{
+    text-align: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .text{
+    color: #F9FAF8;
+    font-size: 26px;
 }
